@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	height: 100%;
+}
+
 header {
 
 	margin:auto;
@@ -19,6 +24,8 @@ header img {
 .dejarcorreo {
 	display: inline-block;
 	font-size: 16px;
+	font-family: 'Pacifico', cursive;
+
 }
 
 .textocorreo {
@@ -26,15 +33,66 @@ header img {
 }
 
 .boton {
-	background-color: lightpink;
+	background-color: hotpink;
 	margin-left: 10px;
 	width: 70px;
 	height: auto;
 	display: inline-block;
 	border-radius: 5px;
+	color: white;
+	border: none;
+
 }
 
-.boton p {
-	margin: 0;
-	color: white;
+
+.redes {
+
+	font-size: 30px;
+	width: 95%;
+	text-align: right;	
+	}
+
+.fab {
+	color: hotpink;
+	margin-left: 15px;
+}
+
+.footer {
+	font-size: 13px; 
+	position: absolute;
+	bottom: 20px;
+	width: 100%; 
+
+
+}
+
+.footer p {
+	text-align: center;
+}
+
+a {
+	color: hotpink;
+}
+
+@media (max-width: 800px) {
+
+
+	.dejarcorreo {
+		display: block;
+	}
+
+	.boton {
+		width: auto; 
+	}
+
+	.redes {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.footer {
+		position: static;
+		margin-top: 40px;
+	}
+
 }
